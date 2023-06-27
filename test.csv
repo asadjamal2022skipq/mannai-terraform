@@ -1,0 +1,2 @@
+Subscription_id,Rgname_name,Locations,app_service_name,app_service_plan_name,os_type,sku_name,stack_lang,env_name,stack_ver,vnet_name,vnet_address_space,V_net_integ_subnet_name,V_net_integ_subnet_address_prefix,V-net_NSG_Name,V-net_route_table_name,web_subnet_name,web_subnet_prefix,web_nsg_name,web_route_table_name
+,azure_trial12,East US,Unique1,myplan1,Linux,B1,,Dev,,vnet_hub,10.0.0.0/22,vnetintegration,10.0.2.0/24,NSG_0,,websubnet1,10.0.3.0/24,,
