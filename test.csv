@@ -1,2 +1,7 @@
-Subscription_id,Rgname_name,Locations,app_service_name,app_service_plan_name,os_type,sku_name,stack_lang,env_name,stack_ver,vnet_name,vnet_address_space,V_net_integ_subnet_name,V_net_integ_subnet_address_prefix,V-net_NSG_Name,V-net_route_table_name,web_subnet_name,web_subnet_prefix,web_nsg_name,web_route_table_name
-,azure_trial12,East US,Unique1,myplan1,Linux,B1,,Dev,,vnet_hub,10.0.0.0/22,vnetintegration,10.0.2.0/24,NSG_0,,websubnet1,10.0.3.0/24,,
+no,Subscription_id,Rgname_name,Locations,app_service_name,app_service_plan_name,os_type,sku_name,stack_lang,env_name,stack_ver,vnet_name,address_space,subnet_name,subnet_address_prefix,NSG_Name,route_table_name
+1,,azure_trial12,East US,Unique1,myplan1,Linux,B1,,Dev,,vnet_hub_Main,10.0.0.0/22,vnetintegration,10.0.2.0/24,vnet_nsg1,vnet_route_table
+2,,azure_trial12,East US,Unique2,myplan1,Linux,B1,,Dev,,vnet_hub_Main,10.0.0.0/22,websubnet1,10.0.3.0/24,web_nsg1,web_route_table
+3,,azure_trial12,East US,Unique3,myplan1,Linux,B1,,Dev,,vnet_hub_Dev,20.0.0.0/22,websubnet1,20.0.3.0/24,web_nsg1,web_route_table
+4,,azure_trial,East US,Unique4,myplan1,Linux,B1,,Dev,,vnet_hub_Prod,15.0.0.0/22,websubnet1,15.0.3.0/24,web_nsg1,web_route_table
+5,,azure_trial12,East US,Unique5,myplan1,Linux,B1,,Dev,,vnet_hub_Dev,20.0.0.0/22,vnetintegration,20.0.2.0/24,vnet_nsg1,vnet_route_table
+6,,azure_trial,East US,Unique3,myplan1,Linux,B1,,Dev,,vnet_hub_Prod,15.0.0.0/22,websubnet1,15.0.3.0/24,web_nsg1,web_route_table
