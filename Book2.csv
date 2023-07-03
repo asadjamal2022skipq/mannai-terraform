@@ -1,0 +1,31 @@
+Active Directory,,,,,,,,,,,,,
+SR#,Resource Group,VNET Name,vNet Description,Address space,Subnet Description,,Subnet Name,NSG,Available IP ,Bit,Subnet IP Range,IP Range,Broadcast
+1,rg-ad-prod-qc-01,vnet-ad-prod-qc-01,Active Directory,172.30.215.0/28,"Domain Controller, Internal DNS, CA server, AD connect etc..",,snet-ad-prod-qc-01,nsg-ad-prod-qc-01,11,/28,172.30.215.0/28,172.30.215.1 - 172.30.215.15,172.30.215.16
+,,,,,,,,,,,,,
+Website,,,,,,,,,,,,,
+SR#,Resource Group,VNET Name,vNet Description,Address space,Subnet Description,,Subnet Name,NSG,Available IP ,Bit,Subnet IP Range,IP Range,Broadcast
+1,rg-website-prod-qc-01,vnet-website-prod-qc-01,Spoke 1 - Directory,172.30.215.16/28,,,snet-website-prod,nsg-website-prod,11,/28,172.30.215.16/28,172.30.215.17 - 172.30.215.30,172.30.215.31
+,,,,,,,,,,,,,
+Hajj,,,,,,,,,,,,,
+SR#,Resource Group,VNET Name,vNet Description,Address space,Subnet Description,,Subnet Name,NSG,Available IP ,Bit,Subnet IP Range,IP Range,Broadcast
+1,rg-hajj-prod-qc-01,vnet-hajj-prod-qc-01,Spoke 1 - Directory,172.30.215.32/28,,,snet-hajj-prod,nsg-hajj-prod,11,/28,172.30.215.32/28,172.30.215.33 - 172.30.215.46,172.30.215.47
+,,,,,,,,,,,,,
+Zakat,,,,,,,,,,,,,
+SR#,Resource Group,VNET Name,vNet Description,Address space,Subnet Description,,Subnet Name,NSG,Available IP ,Bit,Subnet IP Range,IP Range,Broadcast
+1,rg-zakat-prod-qc-01,vnet-zakat-prod-qc-01,Spoke 1 - Directory,172.30.215.48/28,,,snet-zakat-prod,nsg-zakat-prod,11,/28,172.30.215.48/28,172.30.215.49 - 172.30.215.62,172.30.215.63
+,,,,,,,,,,,,,
+Kshaf,,,,,,,,,,,,,
+SR#,Resource Group,VNET Name,vNet Description,Address space,Subnet Description,,Subnet Name,NSG,Available IP ,Bit,Subnet IP Range,IP Range,Broadcast
+1,rg-kshaf-prod-qc-01,vnet-kshaf-prod-qc-01,Spoke 1 - Directory,172.30.215.64/28,,,snet-kshaf-prod,nsg-kshaf-prod,11,/28,172.30.215.64/28,172.30.215.65 - 172.30.215.78,172.30.215.79
+,,,,,,,,,,,,,
+AppExt,,,,,,,,,,,,,
+SR#,Resource Group,VNET Name,vNet Description,Address space,Subnet Description,,Subnet Name,NSG,Available IP ,Bit,Subnet IP Range,IP Range,Broadcast
+1,rg-appext-prod-qc-01,vnet-appext-prod-qc-01,Spoke 1 - Directory,172.30.215.80/28,,,snet-appext-prod,nsg-appext-prod,11,/28,172.30.215.80/28,172.30.215.81 - 172.30.215.94,172.30.215.95
+,,,,,,,,,,,,,
+ServicesExt,,,,,,,,,,,,,
+SR#,Resource Group,VNET Name,vNet Description,Address space,Subnet Description,,Subnet Name,NSG,Available IP ,Bit,Subnet IP Range,IP Range,Broadcast
+1,rg-servicesext-prod-qc-01,vnet-servicesext-prod-qc-01,Spoke 1 - Directory,172.30.215.96/28,,,snet-servicesext-prod,nsg-servicesext-prod,11,/28,172.30.215.96/28,172.30.215.97 - 172.30.215.110,172.30.215.111
+,,,,,,,,,,,,,
+GIS,,,,,,,,,,,,,
+SR#,Resource Group,VNET Name,vNet Description,Address space,Subnet Description,,Subnet Name,NSG,Available IP ,Bit,Subnet IP Range,IP Range,Broadcast
+1,rg-gis-prod-qc-01,vnet-gis-prod-qc-01,Spoke 1 - Directory,172.30.215.112/28,,,snet-gis-prod,nsg-gis-prod,11,/28,172.30.215.112/28,172.30.215.113 - 172.30.215.126,172.30.215.127
