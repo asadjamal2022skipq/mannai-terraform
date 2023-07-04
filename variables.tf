@@ -1,10 +1,10 @@
 variable "tenant_id" {
-  type = string
+  type    = string
   default = "value"
 }
 
 variable "subscription_id" {
-  type = string
+  type    = string
   default = "value"
 }
 

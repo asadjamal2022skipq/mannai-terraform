@@ -1,0 +1,2 @@
+sl_no,resource_group,app_service_name,app_service_plan_name,os_type,sku_name,application_stack,environment,version_stack,vnet_name,address_space,subnet_name,subnet_address_prefix,nsg_name,route_table_name
+2,azure_trial,windows123123,windowsplan,Windows,P1v2,dotnet,Dev,3.9,vnet_hub_Main,10.0.0.0/22,vnetintegration,10.0.2.0/24,vnet_nsg1,vnet_route_table

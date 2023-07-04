@@ -23,9 +23,9 @@ output "sorted_RG" {
   value = azurerm_resource_group.RGroups
 } */
 
-output "data" {
+/* output "data" {
   value = local.vnet_data
-}
+} */
 
 /* output "data2" {
   value = local.vnet_final
@@ -67,6 +67,14 @@ output "vnet_data" {
   value = local.vnet_data
 } */
 
-output "vnet_data" {
-  value = azurerm_service_plan.ServicePlan
+/* output "Value" {
+  value = local.data
+}
+
+output "linux_data" {
+  value = local.data2
+} */
+
+output "windows_data" {
+  value = local.all_data
 }
